@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="h.mentalhealth">
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/splashScreen"
+        tools:targetApi="31">
+        <activity
+            android:name=".Symptoms"
+            android:exported="false" />
+        <activity
+            android:name=".Music"
+            android:exported="false" />
+        <activity
+            android:name=".GIF"
+            android:exported="false" />
+        <activity
+            android:name=".MainPage"
+            android:exported="false" />
+        <activity
+            android:name=".SignUP"
+            android:exported="false"/>
+        <activity
+            android:name=".Meditationn"
+            android:exported="false" />
+        <activity
+            android:name=".Gratitude"
+            android:exported="false" />
+        <activity
+            android:name=".RantCard"
+            android:exported="false" />
+        <activity
+            android:name=".DeepBreath"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayerr"
+            android:exported="false" />
+        <activity
+            android:name=".Canva6"
+            android:exported="false" />
+        <activity
+            android:name=".Canva5"
+            android:exported="false" />
+        <activity
+            android:name=".Canva4"
+            android:exported="false" />
+        <activity
+            android:name=".Canva3"
+            android:exported="false" />
+        <activity
+            android:name=".Canva2"
+            android:exported="false" />
+        <activity
+            android:name=".BreatheInHoldOut"
+            android:exported="false" />
+        <activity
+            android:name=".Canva"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Sliderpage"
+            android:exported="true">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

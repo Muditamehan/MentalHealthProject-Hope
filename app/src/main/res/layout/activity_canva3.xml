@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Canva3"
+    android:orientation="vertical"
+    android:background="#9370db">
+
+    <TextView
+        android:id="@+id/tv1slider3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="“No one would ever say that someone with a broken arm or a broken leg is less than a whole person, but people say that or imply that all the time about people with mental illness.”"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:paddingTop="320dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:textStyle="italic"
+        android:fontFamily="@font/montserrat"/>
+
+    <TextView
+        android:id="@+id/tv2slider3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elyn R. Saks, 2007"
+        android:textColor="#f5fffa"
+        android:paddingTop="10dp"
+        android:textSize="11dp"
+        android:gravity="center"
+        android:paddingRight="36dp"
+        android:paddingLeft="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/agrandir"/>
+
+    <TextView
+        android:id="@+id/tv3slider3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hope"
+        android:textColor="#f5fffa"
+        android:paddingTop="280dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:paddingRight="36dp"
+        android:paddingLeft="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aloja"/>
+
+
+</LinearLayout>

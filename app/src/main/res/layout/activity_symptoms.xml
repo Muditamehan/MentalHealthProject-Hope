@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Symptoms"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/TV1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="What's on your mind?"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left"
+        android:paddingTop="40dp"
+        android:fontFamily="@font/beststories"/>
+
+    <TextView
+        android:id="@+id/idTVDB2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="We will personalize recommendations based on your goals."
+        android:textSize="14dp"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingTop="9dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="left"
+        android:fontFamily="@font/abrilfatface"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:id="@+id/idRB1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#4681f4"
+            android:buttonTint="@color/white"
+            android:onClick="moreinfodepression"
+            android:padding="20dp"
+            android:text="Depression"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:fontFamily="@font/bangers"/>
+
+        <Button
+            android:id="@+id/idRB2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bangers"
+            android:background="#5dbea3"
+            android:buttonTint="@color/white"
+            android:onClick="moreinfoanxiety"
+            android:padding="20dp"
+            android:text="Anxiety"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idRB3"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bangers"
+            android:text="Trauma"
+            android:onClick="moreinfotrauma"
+            android:textSize="15dp"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:background="#dd7973"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idRB4"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bangers"
+            android:text="Anger Management"
+            android:onClick="moreinfoangermanagement"
+            android:textSize="15dp"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:background="#ffbd03"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idRB5"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bangers"
+            android:text="Self Esteem"
+            android:onClick="moreinfoselfesteem"
+            android:textSize="15dp"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:background="#5783db"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idRB6"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bangers"
+            android:text="Stress"
+            android:onClick="moreinfostress"
+            android:textSize="15dp"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:background="#33b249"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idRB7"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bangers"
+            android:text="Personal Growth"
+            android:onClick="moreinfopersonalgrowth"
+            android:textSize="15dp"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:background="#80669d"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idRB8"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bangers"
+            android:text="Addiction"
+            android:onClick="moreinfoaddiction"
+            android:textSize="15dp"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:background="#dd7973"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idRB9"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bangers"
+            android:text = "Sleep"
+            android:onClick="moreinfosleep"
+            android:textSize="15dp"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:background="#ffbd03"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idRB10"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bangers"
+            android:text="Grief"
+            android:onClick="moreinfogrief"
+            android:textSize="15dp"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:background="#55c2da"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idRB11"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bangers"
+            android:text="Obsessive Compulsive Disorder"
+            android:onClick="moreinfoobsessivecompulsivedisorder"
+            android:textSize="15dp"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:background="#5adbb5"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idRB12"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bangers"
+            android:text="Parenting"
+            android:onClick="moreinfoparenting"
+            android:textSize="15dp"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:background="#a881af"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idRB13"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bangers"
+            android:text="Adjustment/Transitions"
+            android:onClick="moreinfoadjustmenttransitions"
+            android:textSize="15dp"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:background="#dd7973"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idRB14"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bangers"
+            android:text="LGBTQI concerns"
+            android:onClick="moreinfolgbtqi"
+            android:textSize="15dp"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:background="#ffbd03"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idRB15"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bangers"
+            android:text="Couple"
+            android:onClick="moreinfocouple"
+            android:textSize="15dp"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:background="#5783db"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idRB16"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bangers"
+            android:text="Confidence"
+            android:onClick="moreinfoconfidence"
+            android:textSize="15dp"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:background="#5dbea3"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idRB17"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bangers"
+            android:text="Work"
+            android:onClick="moreinfowork"
+            android:textSize="15dp"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:background="#dd7973"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idRB18"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bangers"
+            android:text="Relationships"
+            android:onClick="moreinfolrelationships"
+            android:textSize="15dp"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:background="#ffbd03"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/main">
+
+        <ImageView
+            android:id="@+id/image02"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ghosttcudiee" />
+
+    <Button
+        android:background="@drawable/circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idB"
+        android:padding="20dp"
+        android:fontFamily="@font/bangers"
+        android:text="NEXT"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:onClick="done"
+        android:textSize="15dp"
+        android:buttonTint="#663399"
+        android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/image01"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ghosttcudie" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/yo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hope"
+        android:textColor="#f5fffa"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:paddingRight="36dp"
+        android:paddingLeft="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aloja"/>
+
+
+</LinearLayout>
+
+</ScrollView>

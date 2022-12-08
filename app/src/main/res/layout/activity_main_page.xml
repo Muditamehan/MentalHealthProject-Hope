@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/mptext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hey there, Mate!!"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/rnssans" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_margin="10dp" />
+
+    <ImageView
+        android:id="@+id/image01"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ghosttcudie" />
+
+    <ImageView
+        android:id="@+id/image02"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ghosttcudiee" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/mptext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How do you feel?"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/rnssans" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4">
+
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/emojii" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mptext3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EXERCISES:"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/rnssans" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="300dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="40dp"
+            android:layout_height="80dp"
+            android:drawableLeft="@drawable/gratitudeeee"
+            android:text="Gratitude"
+            android:onClick="gratitude"/>
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="300dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="55dp"
+            android:layout_height="80dp"
+            android:drawableLeft="@drawable/meditationn"
+            android:text="Meditation"
+            android:onClick="meditation"/>
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="300dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="55dp"
+            android:layout_height="80dp"
+            android:drawableLeft="@drawable/headphones"
+            android:text="Music Player"
+            android:onClick="musicplayer"/>
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="300dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="55dp"
+            android:layout_height="80dp"
+            android:drawableLeft="@drawable/notes"
+            android:text="Rant Card"
+            android:onClick="rantcard"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv3slider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hope"
+            android:textColor="#f5fffa"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:paddingRight="36dp"
+            android:paddingLeft="30dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/aloja"/>
+
+
+</LinearLayout>

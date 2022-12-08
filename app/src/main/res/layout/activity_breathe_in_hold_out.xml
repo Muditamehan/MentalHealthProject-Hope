@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BreatheInHoldOut"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textvi01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="anxious"
+            android:textColor="@color/white" />
+
+        <ProgressBar
+            android:id="@+id/seekBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/app_progressbar_back"
+            android:progress="00"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/textvi02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="happy"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/main">
+
+        <ImageView
+            android:id="@+id/image01"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ghosttcudie" />
+
+        <ImageView
+            android:id="@+id/image02"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ghosttcudiee" />
+
+        <TextView
+            android:id="@+id/aaaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="It's okay if all you did today was breathe."
+            android:textColor="@color/white"
+            android:fontFamily="@font/abrilfatface"
+            android:textSize="18dp"
+            android:layout_margin="40dp"/>
+
+        <!--<ImageView
+            android:id="@+id/imageview01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />-->
+
+        <Button
+            android:id="@+id/textView1"
+            android:layout_width="308dp"
+            android:layout_height="255dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/circle"
+            android:onClick="breathe"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <!--<ImageView
+            android:id="@+id/imageview02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />-->
+
+        <TextView
+            android:id="@+id/aaa"
+            android:layout_below="@id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If you don't get lost, there's a chance you may never be found."
+            android:textColor="@color/white"
+            android:fontFamily="@font/abrilfatface"
+            android:textSize="18dp"
+            android:layout_margin="40dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aaa">
+
+            <ImageView
+                android:id="@+id/bb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/aaa"
+                android:src="@drawable/hh"
+                android:layout_marginLeft="300dp" />
+
+            <ImageView
+                android:id="@+id/bbbbb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/aaa"
+                android:src="@drawable/breathe"
+                android:layout_marginRight="300dp"/>
+
+            <TextView
+                android:id="@+id/tv3slider1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hope"
+                android:textColor="#f5fffa"
+                android:paddingTop="60dp"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:paddingRight="36dp"
+                android:paddingLeft="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/aloja"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

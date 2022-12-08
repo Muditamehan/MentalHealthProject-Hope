@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Canva6"
+    android:orientation="vertical"
+    android:background="#9370db">
+
+    <TextView
+        android:id="@+id/tv1slider6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="“All stress, anxiety, depression, is caused when we ignore who we are, and start living to please others.”"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:paddingTop="320dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:textStyle="italic"
+        android:fontFamily="@font/montserrat"/>
+
+    <TextView
+        android:id="@+id/tv2slider6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paulo Coelho, 2014"
+        android:textColor="#f5fffa"
+        android:paddingTop="10dp"
+        android:textSize="11dp"
+        android:gravity="center"
+        android:paddingRight="36dp"
+        android:paddingLeft="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/agrandir"/>
+
+    <TextView
+        android:id="@+id/tv3slider6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hope"
+        android:textColor="#f5fffa"
+        android:paddingTop="290dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:paddingRight="36dp"
+        android:paddingLeft="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aloja"/>
+
+
+</LinearLayout>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Music"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/mt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Music Therapy"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/abrilfatface"/>
+
+    <TextView
+        android:id="@+id/mt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Behind the mystical healing powers of music are scientific reasons for why it holds such an influence over our minds. Music is really a combination of many different elements, such as pitch, tempo, and dynamics. How fast, slow, or loud the music, the differently it impacts our brains. When these elements work in combination, we see dramatic changes in physiology and behavior. Listening to music activates our entire brains, creating the potential for us to use music to improve the way we think, behave, and feel."
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="10dp"
+        android:layout_marginBottom="30dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="30dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/main">
+
+            <TextView
+                android:id="@+id/mt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/rnssans"
+                android:text="TRACKS:"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/image01"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ghosttcudie" />
+
+            <ImageView
+                android:id="@+id/image02"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ghosttcudiee" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="40dp"
+                android:drawableLeft="@drawable/adelesomeonelikeyou"
+                android:onClick="adelesomeonelikeyou"
+                android:text="Someone Like You" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/airstreamelectra"
+                android:onClick="airstreamelectra"
+                android:text="air stream electra" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/allsaintspureshoress"
+                android:onClick="allsaintspureshores"
+                android:text="shores" />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/barcelonapleasedontgo"
+                android:onClick="barcelonapleasedontgo"
+                android:text="please don't go" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/coldplaystrawberryswing"
+                android:onClick="coldplaystrawberryswing"
+                android:text="strawberry swing" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/djshahmellomaniac"
+                android:onClick="djshahmellomaniac"
+                android:text="maniac" />
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/enyawatermark"
+                android:onClick="enyawatermark"
+                android:text="watermark" />
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/themarriageoffigaro"
+                android:onClick="mozartthemarriageoffigaro"
+                android:text="the marriage of figaro" />
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/ruedusoleilwecanfly"
+                android:onClick="ruedusoleilwecanfly"
+                android:text="we can fly" />
+
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/weightlessmarconiunion"
+                android:onClick="weightlessmarconiunion"
+                android:text="weightless" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

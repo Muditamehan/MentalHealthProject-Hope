@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Canva4"
+    android:orientation="vertical"
+    android:background="#9370db">
+
+    <TextView
+        android:id="@+id/tv1slider4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="“Things not to say to someone with mental illness: Ignore it. Forget about it. Fight it. You are better than this. You are over thinking.”"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:paddingTop="320dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:textStyle="italic"
+        android:fontFamily="@font/montserrat"/>
+
+    <TextView
+        android:id="@+id/tv2slider4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nitya Prakash, 2019"
+        android:textColor="#f5fffa"
+        android:paddingTop="10dp"
+        android:textSize="11dp"
+        android:gravity="center"
+        android:paddingRight="36dp"
+        android:paddingLeft="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/agrandir"/>
+
+    <TextView
+        android:id="@+id/tv3slider4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hope"
+        android:textColor="#f5fffa"
+        android:paddingTop="298dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:paddingRight="36dp"
+        android:paddingLeft="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aloja"/>
+
+
+</LinearLayout>

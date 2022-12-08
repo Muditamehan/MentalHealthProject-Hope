@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Canva2"
+    android:orientation="vertical"
+    android:background="#9370db">
+
+    <TextView
+        android:id="@+id/tv1slider2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="“The true definition of mental illness is when the majority of your time is spent in the past or future, but rarely living in the realism of NOW.”"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        android:gravity="center"
+        android:paddingTop="320dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:textStyle="italic"
+        android:fontFamily="@font/montserrat"/>
+
+    <TextView
+        android:id="@+id/tv2slider2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shannon L. Alder, n.d."
+        android:textColor="#f5fffa"
+        android:paddingTop="10dp"
+        android:textSize="11dp"
+        android:gravity="center"
+        android:paddingRight="36dp"
+        android:paddingLeft="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/agrandir"/>
+
+    <TextView
+        android:id="@+id/tv3slider2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hope"
+        android:textColor="#f5fffa"
+        android:paddingTop="300dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:paddingRight="36dp"
+        android:paddingLeft="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aloja"/>
+
+
+</LinearLayout>

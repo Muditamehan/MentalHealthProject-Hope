@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gratitude"
+    android:orientation="vertical"
+    android:background="#8a2be2">
+
+        <TextView
+            android:id="@+id/t001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gratitude Journal"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/abrilfatface"/>
+
+        <TextView
+            android:id="@+id/t002"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We've all had times where we've felt like nothing has gone right and the world is against us. Keeping a gratitude journal can help you get through rough patches. By looking back on things that you've appreciated in the past (and likely are still thankful for), you can begin to see that things aren't as bad as they seem, and that you have people and things that can give you the strength to see you through the toughest of days."
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="11dp"/>
+
+    <TextView
+        android:id="@+id/t003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="“I’m grateful for…”"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="40dp"
+        android:fontFamily="@font/beststories"/>
+
+    <EditText
+        android:id="@+id/e001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Morning gratitude..."
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColorHint="#FAFAFA"/>
+
+    <EditText
+        android:id="@+id/e002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Things to do to love and care for myself..."
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColorHint="#FAFAFA"/>
+
+    <EditText
+        android:id="@+id/e003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="People I'm thankful for..."
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColorHint="#FAFAFA"/>
+
+    <EditText
+        android:id="@+id/e004"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What made me happy..."
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColorHint="#FAFAFA"/>
+
+    <EditText
+        android:id="@+id/e005"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What can I do to make today better..."
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/e006"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="One happy memory..."
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/e007"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The world is a good place today because of..."
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColorHint="#FAFAFA"/>
+
+    <EditText
+        android:id="@+id/e008"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A hard lesson you've had to learn and how you grew with it..."
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColorHint="#FAFAFA"/>
+
+    <EditText
+        android:id="@+id/e009"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="One thing I like about myself..."
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColorHint="#FAFAFA"/>
+
+    <EditText
+        android:id="@+id/e0010"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A proud moment of your life..."
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColorHint="#FAFAFA"/>
+
+    <EditText
+        android:id="@+id/e0011"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Some taken for granted wishes you received without asking..."
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColorHint="#FAFAFA"/>
+
+    <EditText
+        android:id="@+id/e0012"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="An act of kindness and the feeling you got with it..."
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColorHint="#FAFAFA"/>
+
+    <EditText
+        android:id="@+id/e0013"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The best part of my day..."
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColorHint="#FAFAFA"/>
+
+    <EditText
+        android:id="@+id/e0014"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tomorrow I am going to..."
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColorHint="#FAFAFA" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/t004"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Universe loves you"
+            android:textColor="@color/white"
+            android:gravity="right"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/abrilfatface" />
+
+        <TextView
+            android:layout_below="@id/t004"
+            android:id="@+id/t005"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You matter!!"
+            android:textColor="@color/white"
+            android:gravity="right"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/abrilfatface" />
+
+
+    <TextView
+        android:id="@+id/tv3slider1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hope"
+        android:layout_marginTop="100dp"
+        android:textColor="#f5fffa"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:paddingRight="36dp"
+        android:paddingLeft="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aloja"/>
+
+    <ImageView
+        android:id="@+id/image01"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ghosttcudie" />
+
+    <ImageView
+        android:id="@+id/image02"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ghosttcudiee" />
+
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
